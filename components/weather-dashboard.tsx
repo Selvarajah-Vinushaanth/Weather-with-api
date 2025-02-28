@@ -80,7 +80,7 @@ export default function WeatherDashboard() {
   const [error, setError] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState("")
   const [isRefreshing, setIsRefreshing] = useState(false)
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(true)
   const [favorites, setFavorites] = useState<string[]>([])
   const [selectedLocation, setSelectedLocation] = useState<string | null>(null)
   const [weatherAlerts, setWeatherAlerts] = useState<Record<string, string>>({})
